@@ -10,22 +10,22 @@
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header bg-danger text-center">
-                    CRUD Data Kendaraan - <strong>EDIT DATA</strong> - <a href="#" target="_blank">Denis Oktaviano</a>
+                    CRUD Data - <strong>EDIT DATA</strong> - <a href="#" target="_blank">Denis Oktaviano</a>
                 </div>
                 <div class="card-body">
-                    <a href="/pegawai" class="btn btn-primary">Kembali</a>
+                    <a href="/brg" class="btn btn-primary">Kembali</a>
                     <br/>
                     <br/>
                     
  
-                    <form method="post" action="/pegawai/update/{{ $pegawai->id }}">
+                    <form method="post" action="/brg/update/{{ $pegawai->id }}">
  
                         {{ csrf_field() }}
                         {{ method_field('PUT') }}
 
                         <div class="form-group">
-                            <label>Nomor Polisi</label>
-                            <input type="integer" name="nip" class="form-control" placeholder="nip pegawai" value=" {{ $pegawai->nip }}">
+                            <label>stok</label>
+                            <input type="integer" name="nip" class="form-control" placeholder="stok" value=" {{ $pegawai->nip }}">
  
                             @if($errors->has('nip'))
                                 <div class="text-danger">
@@ -36,8 +36,8 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Merk</label>
-                            <input type="text" name="nama" class="form-control" placeholder="Nama pegawai .." value=" {{ $pegawai->nama }}">
+                            <label>kategori</label>
+                            <input type="text" name="nama" class="form-control" placeholder="kategori" value=" {{ $pegawai->nama }}">
  
                             @if($errors->has('nama'))
                                 <div class="text-danger">
@@ -48,8 +48,8 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Tipe</label>
-                            <textarea name="alamat" class="form-control" placeholder="Alamat pegawai .."> {{ $pegawai->alamat }} </textarea>
+                            <label>nama</label>
+                            <textarea name="alamat" class="form-control" placeholder="nama"> {{ $pegawai->alamat }} </textarea>
  
                              @if($errors->has('alamat'))
                                 <div class="text-danger">

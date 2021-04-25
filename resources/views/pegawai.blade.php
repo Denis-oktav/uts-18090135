@@ -33,8 +33,8 @@
                                 <td>{{ $p->alamat }}</td>
                                 <td>{{ $p->nip }}</td>
                                 <td>
-                                    <a href="/hp/edit/{{ $p->id }}" class="btn btn-warning">Edit</a>
-                                    <a href="/hp/hapus/{{ $p->id }}" class="btn btn-danger">Hapus</a>
+                                    <a href="/brg/edit/{{ $p->id }}" class="btn btn-warning">Edit</a>
+                                    <a href="/brg/hapus/{{ $p->id }}" class="btn btn-danger">Hapus</a>
                                 </td>
                             </tr>
                             @endforeach

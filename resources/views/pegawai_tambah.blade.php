@@ -10,7 +10,7 @@
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header bg-danger text-center">
-                    CRUD Data Kendaraan - <strong>TAMBAH DATA</strong> - <a href="#" target="_blank">Denis Oktaviano</a>
+                    CRUD - <strong>TAMBAH DATA</strong> - <a href="#" target="_blank">Denis Oktaviano</a>
                 </div>
                 <div class="card-body">
                     <a href="/pegawai" class="btn btn-primary">Kembali</a>
@@ -22,7 +22,7 @@
                         {{ csrf_field() }}
 
                         <div class="form-group">
-                            <label>Nomor Polisi</label>
+                            <label>stok</label>
                             <input type="integer" name="nip" class="form-control" placeholder="Masukan nip pegawai">
  
                             @if($errors->has('nip'))
@@ -34,7 +34,7 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Merk</label>
+                            <label>kategori</label>
                             <input type="text" name="nama" class="form-control" placeholder="Masukan nama pegawai">
  
                             @if($errors->has('nama'))
@@ -46,7 +46,7 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Tipe</label>
+                            <label>nama</label>
                             <textarea name="alamat" class="form-control" placeholder="Masukan alamat pegawai"></textarea>
  
                              @if($errors->has('alamat'))

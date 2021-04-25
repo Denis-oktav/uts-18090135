@@ -14,15 +14,15 @@
                 <strong>Aplikasi perekaman data HP </strong> 
                 </div>
                 <div class="card-body">
-                    <a href="/hp/tambah" class="btn btn-primary">Tambah Data Baru</a> <td><a href="/" class="btn btn-danger">Kembali</a></td>
+                    <a href="/brg/tambah" class="btn btn-primary">Tambah Data Baru</a> <td><a href="/" class="btn btn-danger">Kembali</a></td>
                     <br/>
                     <br/>
                     <table class="table table-bordered table-hover table-striped">
                         <thead>
                             <tr>
-                                <th>Merk HP</th>
-                                <th>Tipe HP</th>
-                                <th>Tahun</th>
+                                <th>kategori</th>
+                                <th>nama</th>
+                                <th>stok</th>
                                 <th>OPSI</th>
                             </tr>
                         </thead>

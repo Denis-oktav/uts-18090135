@@ -11,7 +11,7 @@
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header bg-danger text-center">
-                <strong>Aplikasi perekaman data HP </strong> 
+                <strong>Crud</strong> 
                 </div>
                 <div class="card-body">
                     <a href="/brg/tambah" class="btn btn-primary">Tambah Data Baru</a> <td><a href="/" class="btn btn-danger">Kembali</a></td>

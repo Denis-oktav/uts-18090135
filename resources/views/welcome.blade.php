@@ -23,7 +23,7 @@
             <div class="logo"><a href="#">Data<span>Kendaraan.</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="https://uts-18090138.herokuapp.com/brg" class="menu-btn">Data</a></li>
+                <li><a href="https://uts-18090135.herokuapp.com/brg" class="menu-btn">Data</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>

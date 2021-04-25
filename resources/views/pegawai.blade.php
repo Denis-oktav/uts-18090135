@@ -11,20 +11,19 @@
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header bg-danger text-center">
-                    CRUD Data Kendaraan - <a href="#" target="_blank"> Denis Oktaviano</a>
+                <strong>Aplikasi perekaman data HP </strong> 
                 </div>
-            </div>
-
                 <div class="card-body">
-                    <a href="/pegawai/tambah" class="btn btn-dark">Input Data Kendaraan</a>                    <a href="/" class="btn btn-primary">Kembali</a>
+                    <a href="/hp/tambah" class="btn btn-primary">Tambah Data Baru</a> <td><a href="/" class="btn btn-danger">Kembali</a></td>
                     <br/>
                     <br/>
                     <table class="table table-bordered table-hover table-striped">
                         <thead>
                             <tr>
-                                <th>Nomor Polisi</th>
-                                <th>Merk</th>
-                                <th>Tipe</th>
+                                <th>Merk HP</th>
+                                <th>Tipe HP</th>
+                                <th>Tahun</th>
+                                <th>OPSI</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -32,9 +31,10 @@
                             <tr>
                                 <td>{{ $p->nama }}</td>
                                 <td>{{ $p->alamat }}</td>
+                                <td>{{ $p->nip }}</td>
                                 <td>
-                                    <a href="/pegawai/edit/{{ $p->id }}" class="btn btn-info">Edit</a>
-                                    <a href="/pegawai/hapus/{{ $p->id }}" class="btn btn-warning">Hapus</a>
+                                    <a href="/hp/edit/{{ $p->id }}" class="btn btn-warning">Edit</a>
+                                    <a href="/hp/hapus/{{ $p->id }}" class="btn btn-danger">Hapus</a>
                                 </td>
                             </tr>
                             @endforeach
@@ -43,9 +43,10 @@
                 </div>
             </div>
         </div>
+    </body>
          <!-- footer section start -->
     <footer>
-        <span>Created By <a href="#">Denis Oktaviano/a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+        <span>Created By <a href="#">Denis Oktaviano</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
 
     <script src="script.js"></script>

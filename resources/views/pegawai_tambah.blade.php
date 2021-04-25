@@ -10,7 +10,7 @@
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header bg-danger text-center">
-                    CRUD Data Kendaraan - <strong>TAMBAH DATA</strong> - <a href="#" target="_blank">Hafizh Umar Syafiqh</a>
+                    CRUD Data Kendaraan - <strong>TAMBAH DATA</strong> - <a href="#" target="_blank">Denis Oktaviano</a>
                 </div>
                 <div class="card-body">
                     <a href="/pegawai" class="btn btn-primary">Kembali</a>

@@ -37,9 +37,9 @@
           <div class="row">
             <div class="home-content">
                 <div class="text-1">hi everyone, it's me</div>
-                <div class="text-2">Hafizh Umar Syafiqh</div>
+                <div class="text-2">Denis Oktaviano</div>
                 <div class="text-3"><span class="typing"></span></div>
-                <a href="https://uts-18090135.herokuapp.com/nopol">Start</a>
+                <a href="https://uts-18090135.herokuapp.com/brg">Start</a>
             </div>
           </div>
       </div>

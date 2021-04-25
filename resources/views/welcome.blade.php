@@ -20,7 +20,7 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Data<span>Kendaraan.</span></a></div>
+            <div class="logo"><a href="#">Data<span>Barang.</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="https://uts-18090135.herokuapp.com/brg" class="menu-btn">Data</a></li>
@@ -37,8 +37,7 @@
           <div class="row">
             <div class="home-content">
                 <div class="text-1">hi everyone, it's me</div>
-                <div class="text-2">Denis Oktaviano</div>
-                <div class="text-3"><span class="typing"></span></div>
+                <div class="text-2">Denis Oktaviano (18090135)</div>
                 <a href="https://uts-18090135.herokuapp.com/brg">Start</a>
             </div>
           </div>
@@ -48,7 +47,7 @@
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="#">Hafizh Umar Syafiqh</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+        <span>Created By <a href="#">Denis Oktaviano</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
 
     <script src="script.js"></script>
